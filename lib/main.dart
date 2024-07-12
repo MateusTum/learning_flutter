@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-// Import screens
 import 'screens/index.dart';
-// Import SideNav
 import 'widgets/sidenav/side_nav.dart';
 
 void main() {
@@ -56,7 +54,7 @@ class HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
   static final List<Widget> _widgetOptions = <Widget>[
-    const HomeScreen(),
+    HomeScreen(),
     const SearchScreen(),
     const ProfileScreen(),
   ];
